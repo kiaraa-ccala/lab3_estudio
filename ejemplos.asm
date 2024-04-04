@@ -11,7 +11,7 @@ sumLoop:
     cmp     rcx,    0               ; 
     jne     sumLoop
 
-
+#otra manera de expresar el codigo, aqui uso loop como reemplazo de dec y jne
     mov     rcx,    qword [cant]    ; contador de iteraciones
     mov     rax,    1               ; registro de impares
 sumLoop:
